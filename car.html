@@ -1,0 +1,51 @@
+   <html>
+
+    
+    <head>
+       <title>jQuery Car Racer 2.0</title>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel href="css/style.css" rel="stylesheet">
+       
+    </head>
+
+     <body id="race">
+              
+   <h1 id="h1">Car Racer 2.0</h1>
+
+     <input type="button" value="Race!" id="go">
+         <input type="button" value="Reset" id="reset">
+        
+         <br><br>
+        
+         <div id="racetrack">
+           <img src="js/img/greencar.png" alt="Green car" id="car1" class="car">
+             <img src="js/img/redcar.png" alt="Red car" id="car2" class="car">
+         
+         </div>
+         
+          <div id="raceInfoContainer" class="clearfix">
+              <h2 id="h2">Results</h2>
+              <div id="raceInfo1" class="raceInfo">Green car<span></span></div>
+              
+              <div id="raceInfo2" class="raceInfo">Red car<span></span></div>
+         
+         
+         </div>
+         
+          
+         <!-- Load the CDN first -->
+        
+    <!-- It was disturbing the script -->
+        
+         <!-- If CDN fails to load, serve up the local version -->
+    
+       <script src="js/jquery-2.1.4.js"></script>
+         
+         <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.js"><\/script>');</script>
+        
+    <script src="carScript.js"></script>
+         
+       </body>
+       
+</html>
